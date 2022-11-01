@@ -43,3 +43,31 @@ img {
     align-items: center;
     height: 100vh;
 }
+
+.counter-div {
+    width: 40rem;
+    border: 1px solid var(--grey);
+    padding: 1rem;
+    background-color: var(--light-blue);
+    color: var(--white);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.counter-div > * {
+    margin-bottom: 2rem;
+}
+
+.count {
+    font-size: 4rem;
+}
+
+.buttons button {
+    padding: 1rem;
+    margin: 0 1rem;
+    font-size: 1.5rem;
+    /* color: var(--white); */
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
