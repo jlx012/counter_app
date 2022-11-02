@@ -66,8 +66,23 @@ img {
     padding: 1rem;
     margin: 0 1rem;
     font-size: 1.5rem;
-    /* color: var(--white); */
+    color: var(--white);
     border: none;
     outline: none;
     border-radius: 3px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button.subtract {
+    background-color: orangered;
+}
+
+button.reset {
+    background-color: white;
+    color: black;
+}
+
+button.add {
+    background-color:green;
 }
